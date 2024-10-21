@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .blue-text {
+            color: blue;
+        }
+    </style>
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">My Website</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <h1 class="blue-text">Welcome to My Sample website </h1>
+        <p class="blue-text"><b>Testing responsive landing page</b></p>
+        <button class="cta-button"><a href="#contact" style="color: white; text-decoration: none;">Get In Touch</a></button>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>We build fast, responsive websites tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>App Development</h3>
+                <p>Custom mobile apps that provide smooth user experiences.</p>
+            </div>
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Get more visibility online and attract more visitors.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <h2>About Us</h2>
+        <p>We are a team of experienced developers and designers focused on delivering high-quality solutions. Our mission is to help businesses achieve their goals through cutting-edge technology.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact" style="padding: 50px 20px; text-align: center;">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out for any inquiries or questions.</p>
+        <form action="#" style="max-width: 600px; margin: 0 auto;">
+            <input type="text" placeholder="Your Name" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+            <input type="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+            <textarea placeholder="Your Message" required style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+            <button type="submit" class="cta-button">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 My Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
